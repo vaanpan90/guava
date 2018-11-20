@@ -58,10 +58,10 @@ public void testInsertionOrderAfterRemoveMiddle() throws Exception {
   testCase.testInsertionOrderAfterRemoveMiddle();
 }
 
-public void testInverseEntrySetValueNewKey() throws Exception {
-  com.google.common.collect.HashBiMapTest testCase = new com.google.common.collect.HashBiMapTest();
-  testCase.testInverseEntrySetValueNewKey();
-}
+//public void testInverseEntrySetValueNewKey() throws Exception {
+//  com.google.common.collect.HashBiMapTest testCase = new com.google.common.collect.HashBiMapTest();
+//  testCase.testInverseEntrySetValueNewKey();
+//}
 
 public void testInverseInsertionOrderAfterInverse() throws Exception {
   com.google.common.collect.HashBiMapTest testCase = new com.google.common.collect.HashBiMapTest();
@@ -73,10 +73,10 @@ public void testInverseInsertionOrderAfterInverseForcePut() throws Exception {
   testCase.testInverseInsertionOrderAfterInverseForcePut();
 }
 
-public void testInverseInsertionOrderAfterInverseForcePutPresentKey() throws Exception {
-  com.google.common.collect.HashBiMapTest testCase = new com.google.common.collect.HashBiMapTest();
-  testCase.testInverseInsertionOrderAfterInverseForcePutPresentKey();
-}
+//public void testInverseInsertionOrderAfterInverseForcePutPresentKey() throws Exception {
+//  com.google.common.collect.HashBiMapTest testCase = new com.google.common.collect.HashBiMapTest();
+//  testCase.testInverseInsertionOrderAfterInverseForcePutPresentKey();
+//}
 
 public void testMapConstructor() throws Exception {
   com.google.common.collect.HashBiMapTest testCase = new com.google.common.collect.HashBiMapTest();

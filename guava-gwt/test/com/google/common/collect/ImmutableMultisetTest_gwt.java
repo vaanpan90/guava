@@ -38,25 +38,25 @@ public void testBuilderAddAllHandlesNullsCorrectly() throws Exception {
   testCase.testBuilderAddAllHandlesNullsCorrectly();
 }
 
-public void testBuilderAddAllHashMultiset() throws Exception {
-  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
-  testCase.testBuilderAddAllHashMultiset();
-}
-
-public void testBuilderAddAllImmutableMultiset() throws Exception {
-  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
-  testCase.testBuilderAddAllImmutableMultiset();
-}
+//public void testBuilderAddAllHashMultiset() throws Exception {
+//  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
+//  testCase.testBuilderAddAllHashMultiset();
+//}
+//
+//public void testBuilderAddAllImmutableMultiset() throws Exception {
+//  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
+//  testCase.testBuilderAddAllImmutableMultiset();
+//}
 
 public void testBuilderAddAllIterator() throws Exception {
   com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
   testCase.testBuilderAddAllIterator();
 }
 
-public void testBuilderAddAllTreeMultiset() throws Exception {
-  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
-  testCase.testBuilderAddAllTreeMultiset();
-}
+//public void testBuilderAddAllTreeMultiset() throws Exception {
+//  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
+//  testCase.testBuilderAddAllTreeMultiset();
+//}
 
 public void testBuilderAddCopies() throws Exception {
   com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
@@ -113,10 +113,10 @@ public void testCopyOf_collection_oneElement() throws Exception {
   testCase.testCopyOf_collection_oneElement();
 }
 
-public void testCopyOf_hashMultiset() throws Exception {
-  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
-  testCase.testCopyOf_hashMultiset();
-}
+//public void testCopyOf_hashMultiset() throws Exception {
+//  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
+//  testCase.testCopyOf_hashMultiset();
+//}
 
 public void testCopyOf_iteratorContainingNull() throws Exception {
   com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
@@ -178,10 +178,10 @@ public void testCopyOf_shortcut_singleton() throws Exception {
   testCase.testCopyOf_shortcut_singleton();
 }
 
-public void testCopyOf_treeMultiset() throws Exception {
-  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
-  testCase.testCopyOf_treeMultiset();
-}
+//public void testCopyOf_treeMultiset() throws Exception {
+//  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();
+//  testCase.testCopyOf_treeMultiset();
+//}
 
 public void testCreation_arrayContainingOnlyNull() throws Exception {
   com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();

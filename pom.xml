@@ -20,7 +20,7 @@
     <test.include>%regex[.*.class]</test.include>
     <truth.version>0.42</truth.version>
     <animal.sniffer.version>1.17</animal.sniffer.version>
-    <maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
+    <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
   </properties>
   <issueManagement>
     <system>GitHub Issues</system>
@@ -90,6 +90,9 @@
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>${maven-javadoc-plugin.version}</version>
+        <configuration>
+          <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
+        </configuration>
       </plugin>
     </plugins>
     <pluginManagement>
@@ -98,8 +101,8 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
           <configuration>
-            <source>1.8</source>
-            <target>1.8</target>
+            <source>1.9</source>
+            <target>1.9</target>
           </configuration>
         </plugin>
         <plugin>
@@ -138,15 +141,15 @@
               <version>1.0</version>
             </signature>
           </configuration>
-          <executions>
-            <execution>
-              <id>check-java-version-compatibility</id>
-              <phase>test</phase>
-              <goals>
-                <goal>check</goal>
-              </goals>
-            </execution>
-          </executions>
+          <!--<executions>-->
+            <!--<execution>-->
+              <!--<id>check-java-version-compatibility</id>-->
+              <!--<phase>test</phase>-->
+              <!--<goals>-->
+                <!--<goal>check</goal>-->
+              <!--</goals>-->
+            <!--</execution>-->
+          <!--</executions>-->
         </plugin>
         <plugin>
           <artifactId>maven-javadoc-plugin</artifactId>

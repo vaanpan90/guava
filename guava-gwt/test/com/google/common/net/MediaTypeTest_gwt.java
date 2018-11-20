@@ -143,20 +143,20 @@ public void testWithParameters() throws Exception {
   testCase.testWithParameters();
 }
 
-public void testWithParametersIterable() throws Exception {
-  com.google.common.net.MediaTypeTest testCase = new com.google.common.net.MediaTypeTest();
-  testCase.testWithParametersIterable();
-}
+//public void testWithParametersIterable() throws Exception {
+//  com.google.common.net.MediaTypeTest testCase = new com.google.common.net.MediaTypeTest();
+//  testCase.testWithParametersIterable();
+//}
 
-public void testWithParametersIterable_invalidAttribute() throws Exception {
-  com.google.common.net.MediaTypeTest testCase = new com.google.common.net.MediaTypeTest();
-  testCase.testWithParametersIterable_invalidAttribute();
-}
+//public void testWithParametersIterable_invalidAttribute() throws Exception {
+//  com.google.common.net.MediaTypeTest testCase = new com.google.common.net.MediaTypeTest();
+//  testCase.testWithParametersIterable_invalidAttribute();
+//}
 
-public void testWithParametersIterable_nullValue() throws Exception {
-  com.google.common.net.MediaTypeTest testCase = new com.google.common.net.MediaTypeTest();
-  testCase.testWithParametersIterable_nullValue();
-}
+//public void testWithParametersIterable_nullValue() throws Exception {
+//  com.google.common.net.MediaTypeTest testCase = new com.google.common.net.MediaTypeTest();
+//  testCase.testWithParametersIterable_nullValue();
+//}
 
 public void testWithParameters_invalidAttribute() throws Exception {
   com.google.common.net.MediaTypeTest testCase = new com.google.common.net.MediaTypeTest();
